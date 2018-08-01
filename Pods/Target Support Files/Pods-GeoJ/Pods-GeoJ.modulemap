@@ -1,0 +1,6 @@
+framework module Pods_GeoJ {
+  umbrella header "Pods-GeoJ-umbrella.h"
+
+  export *
+  module * { export * }
+}

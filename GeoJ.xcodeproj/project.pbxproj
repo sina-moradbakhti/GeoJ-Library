@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27280F782112042700C054EB /* GeoJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27280F772112042700C054EB /* GeoJ.swift */; };
 		27E6AF0121120219007FB4F4 /* GeoJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E6AEF721120218007FB4F4 /* GeoJ.framework */; };
 		27E6AF0621120219007FB4F4 /* GeoJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6AF0521120219007FB4F4 /* GeoJTests.swift */; };
 		27E6AF0821120219007FB4F4 /* GeoJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E6AEFA21120218007FB4F4 /* GeoJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		424AE20920E772CE89024377 /* Pods_GeoJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED186E6DA052E840DE53CE7 /* Pods_GeoJ.framework */; };
+		E8B40C63ED40F34DAB224BCF /* Pods_GeoJTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D225A8A0DCFD65891701516 /* Pods_GeoJTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27280F772112042700C054EB /* GeoJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJ.swift; sourceTree = "<group>"; };
 		27E6AEF721120218007FB4F4 /* GeoJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E6AEFA21120218007FB4F4 /* GeoJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoJ.h; sourceTree = "<group>"; };
 		27E6AEFB21120218007FB4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27E6AF0021120219007FB4F4 /* GeoJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E6AF0521120219007FB4F4 /* GeoJTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJTests.swift; sourceTree = "<group>"; };
 		27E6AF0721120219007FB4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E350E90E14475B10E9A2A8 /* Pods-GeoJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoJ/Pods-GeoJ.release.xcconfig"; sourceTree = "<group>"; };
+		4D225A8A0DCFD65891701516 /* Pods_GeoJTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoJTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED186E6DA052E840DE53CE7 /* Pods_GeoJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BD1191EB3ECB5EB33A0F73 /* Pods-GeoJTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoJTests/Pods-GeoJTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4012B5D460C8311BCCCADF9 /* Pods-GeoJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoJ/Pods-GeoJ.debug.xcconfig"; sourceTree = "<group>"; };
+		E0C751059E26E28B96D4CD4A /* Pods-GeoJTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoJTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoJTests/Pods-GeoJTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424AE20920E772CE89024377 /* Pods_GeoJ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E6AF0121120219007FB4F4 /* GeoJ.framework in Frameworks */,
+				E8B40C63ED40F34DAB224BCF /* Pods_GeoJTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,8 @@
 				27E6AEF921120218007FB4F4 /* GeoJ */,
 				27E6AF0421120219007FB4F4 /* GeoJTests */,
 				27E6AEF821120218007FB4F4 /* Products */,
+				3060336258FB42736924D021 /* Pods */,
+				7DEE03C8CD523B5554E6E22C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +85,7 @@
 		27E6AEF921120218007FB4F4 /* GeoJ */ = {
 			isa = PBXGroup;
 			children = (
+				27280F772112042700C054EB /* GeoJ.swift */,
 				27E6AEFA21120218007FB4F4 /* GeoJ.h */,
 				27E6AEFB21120218007FB4F4 /* Info.plist */,
 			);
@@ -84,6 +99,26 @@
 				27E6AF0721120219007FB4F4 /* Info.plist */,
 			);
 			path = GeoJTests;
+			sourceTree = "<group>";
+		};
+		3060336258FB42736924D021 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4012B5D460C8311BCCCADF9 /* Pods-GeoJ.debug.xcconfig */,
+				30E350E90E14475B10E9A2A8 /* Pods-GeoJ.release.xcconfig */,
+				87BD1191EB3ECB5EB33A0F73 /* Pods-GeoJTests.debug.xcconfig */,
+				E0C751059E26E28B96D4CD4A /* Pods-GeoJTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DEE03C8CD523B5554E6E22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ED186E6DA052E840DE53CE7 /* Pods_GeoJ.framework */,
+				4D225A8A0DCFD65891701516 /* Pods_GeoJTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E6AF0B21120219007FB4F4 /* Build configuration list for PBXNativeTarget "GeoJ" */;
 			buildPhases = (
+				753A8F4E8C6269ED615650AE /* [CP] Check Pods Manifest.lock */,
 				27E6AEF221120218007FB4F4 /* Sources */,
 				27E6AEF321120218007FB4F4 /* Frameworks */,
 				27E6AEF421120218007FB4F4 /* Headers */,
@@ -122,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E6AF0E21120219007FB4F4 /* Build configuration list for PBXNativeTarget "GeoJTests" */;
 			buildPhases = (
+				A6F8CF14931A584FCD06CA1A /* [CP] Check Pods Manifest.lock */,
 				27E6AEFC21120219007FB4F4 /* Sources */,
 				27E6AEFD21120219007FB4F4 /* Frameworks */,
 				27E6AEFE21120219007FB4F4 /* Resources */,
@@ -148,6 +185,7 @@
 				TargetAttributes = {
 					27E6AEF621120218007FB4F4 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					27E6AEFF21120219007FB4F4 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -189,11 +227,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		753A8F4E8C6269ED615650AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoJ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F8CF14931A584FCD06CA1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoJTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27E6AEF221120218007FB4F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27280F782112042700C054EB /* GeoJ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +416,9 @@
 		};
 		27E6AF0C21120219007FB4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4012B5D460C8311BCCCADF9 /* Pods-GeoJ.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,6 +428,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GeoJ/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.parcweb.GeoJ;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +445,9 @@
 		};
 		27E6AF0D21120219007FB4F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E350E90E14475B10E9A2A8 /* Pods-GeoJ.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,6 +457,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GeoJ/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +473,9 @@
 		};
 		27E6AF0F21120219007FB4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BD1191EB3ECB5EB33A0F73 /* Pods-GeoJTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 466JSFCG9E;
 				INFOPLIST_FILE = GeoJTests/Info.plist;
@@ -406,7 +493,9 @@
 		};
 		27E6AF1021120219007FB4F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C751059E26E28B96D4CD4A /* Pods-GeoJTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 466JSFCG9E;
 				INFOPLIST_FILE = GeoJTests/Info.plist;
