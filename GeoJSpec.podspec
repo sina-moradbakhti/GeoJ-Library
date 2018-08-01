@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "GeoJSpec"
+  s.name         = "GeoJ"
   s.version      = "0.0.1"
   s.summary      = "an Easiest Way To Convert gregorian Dates to Jalali (Shamsi) Dates"
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/GeoJSpec"
+  s.homepage     = "https://github.com/sina-moradbakhti/GeoJ-Library"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/GeoJSpec.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sina-moradbakhti/GeoJ-Library.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
