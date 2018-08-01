@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.name         = "GeoJ"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "an Easiest Way To Convert gregorian Dates to Jalali (Shamsi) Dates"
 
   # This description is used to generate tags and improve search results.
